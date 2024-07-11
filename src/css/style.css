@@ -1,0 +1,118 @@
+body {
+	background-color: #2C3E50;
+	font-size: 1.2rem;
+	color: #E0E0E0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.main-container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.5rem;
+}
+
+header {
+	padding: 25px;
+	text-align: center;
+	
+}
+
+header figure img{
+	padding-left: 35px;
+}
+
+.main-container section {
+	margin-bottom: 2rem;
+}
+
+h1 {
+	color: #1ABC9C;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+h6 {
+	color: #E0E0E0;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+h6 figure {
+	padding: 0.5rem;
+}
+
+label {
+	color: #E0E0E0;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	display: block;
+}
+
+textarea {
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border: 2px solid #E0E0E0;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	background-color: #34495E;
+	color: #E0E0E0;
+}
+
+textarea:focus {
+	border-color: #1ABC9C;
+	outline: none;
+}
+
+::placeholder {
+	color: #95A5A6;
+	opacity: 1;
+}
+
+button {
+	background-color: #1ABC9C;
+	color: #ffffff;
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 2rem;
+	border: none;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #16A085;
+}
+
+button:focus {
+	outline: 2px solid #16A085;
+}
+
+footer {
+	color: #E0E0E0;
+	text-transform: uppercase;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+footer p {
+	padding-bottom: 12px;
+}
+
+footer nav a {
+	color: #1ABC9C;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+footer nav a:hover {
+	color: #16A085;
+}
+

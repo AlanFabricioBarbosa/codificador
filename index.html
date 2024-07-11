@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<link rel="stylesheet" href="./src/css/responsive.css" />
+		
+		<title>Códificador</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<figure>
+					<a href="https://www.alura.com.br/" target="_blank">
+						<img src="./src/img/logo-alura.png" alt="Logo da Alura" />
+					</a>
+					<a href="https://plataformaimpact.org/pt/plataforma-impact-pt/" target="_blank">
+						<img src="./src/img/logo-impact.svg" alt="Logo da Plataforma impact" />
+					</a>
+				</figure>
+			</header>
+			<section class="main-container">
+				<section>
+					<h1>Códificador</h1>
+					<h6>
+						<figure>
+							<img
+								src="./src/img/Vector.png"
+								alt="Imagem com um ponto de exclamação" />
+						</figure>
+						<figcaption>Apenas letras minúsculas e sem acento.</figcaption>
+					</h6>
+				</section>
+				<section>
+					<label for="input">Criptografe ou descriptografe sua mensagem:</label><br />
+					<textarea
+						id="input"
+						style="resize: none"
+						placeholder="Digite sua mensagem"
+						rows="9"></textarea>
+					<button id="encryptBtn">Criptografar</button>
+					<button id="decryptBtn">Descriptografar</button>
+					<div>
+						<label for="output">Resultado da sua mensagem:</label>
+						<textarea
+							class="output"
+							id="output"
+							style="resize: none"
+							rows="9"
+							disabled></textarea>
+						<button id="copyBtn">Copiar</button>
+					</div>
+				</section>
+			</section>
+			<footer>
+				<p>&copy;Desenvolvido por Alan Fabrício</p>
+				<nav>
+					<a
+						class="fa-brands fa-linkedin"
+						href="https://www.linkedin.com/in/alanfabr%C3%ADciodev/"
+						target="_blank"></a>
+					<a
+						class="fa-brands fa-github"
+						href="https://github.com/AlanFabricioBarbosa"
+						target="_blank"></a>
+				</nav>
+			</footer>
+		</main>
 
-  <link rel="stylesheet" href="./styles.css">
-
-  <title>Decodificador</title>
-</head>
-<body>
-  <h1></h1>
-  <script src="./app.js" defer></script>
-</body>
+		<script src="./src/js/index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/6878fb5287.js"
+			crossorigin="anonymous"></script>
+	</body>
 </html>
